@@ -7,7 +7,7 @@
 [![Badge Chrome]][Chrome]
 [![Badge Edge]][Edge]
 
-***
+---
 
 <h1 align="center">
 <sub>
@@ -16,10 +16,10 @@
 uBlock Origin (uBO)
 </h1>
 <p align="center">
-<sub><a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-is-completely-unrelated-to-the-web-site-ublock.org"><b>BEWARE!</b> uBO is (and has always been) COMPLETELY UNRELATED to the website <code>ublock.org</code></a>.</sub>
+<sub><a href="https://github.com/gorhill/uBlock/wiki/uBlock-Origin-is-completely-unrelated-to-the-web-site-ublock.org"><b>BEWARE!</b> uBO is (and has always been) COMPLETELY UNRELATED to the website <code><del>ublock.org</del></code></a>.</sub>
 </p>
 
-***
+---
 
 <p align="center">
 <a href="https://addons.mozilla.org/addon/ublock-origin/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get uBlock Origin for Firefox"></a>
@@ -29,7 +29,7 @@ uBlock Origin (uBO)
 <a href="https://addons.thunderbird.net/thunderbird/addon/ublock-origin/"><img src="https://user-images.githubusercontent.com/124740436/235314672-73243149-3683-4407-a2d5-ad0f2b08bc17.png" alt="Get uBlock Origin for Thunderbird"></a>
 </p>
 
-***
+---
 
 uBlock Origin (uBO) is a CPU and memory-efficient [wide-spectrum content blocker][Blocking] for Chromium and Firefox. It blocks ads, trackers, coin miners, popups, annoying anti-blockers, malware sites, etc., by default using [EasyList][EasyList], [EasyPrivacy][EasyPrivacy], [Peter Lowe's Blocklist][Peter Lowe's Blocklist], [Online Malicious URL Blocklist][Malicious Blocklist], and uBO [filter lists][uBO Filters]. There are many other lists available to block even more. Hosts files are also supported. uBO uses the EasyList filter syntax and [extends][Extended Syntax] the syntax to work with custom rules and filters.
 
@@ -39,18 +39,18 @@ It is important to note that using a blocker is **NOT** [theft]. Do not fall for
 
 Ads, "unintrusive" or not, are just the visible portion of the privacy-invading means entering your browser when you visit most sites. **uBO's primary goal is to help users neutralize these privacy-invading methods** in a way that welcomes those users who do not wish to use more technical means.
 
-***
+---
 
-* [Documentation](#documentation)
-* [Installation](#installation)
-  * [Firefox](#firefox)
-  * [Thunderbird](#thunderbird)
-  * [Chromium](#chromium)
-  * [All Programs](#all-programs)
-  * [Enterprise Deployment](#enterprise-deployment)
-* [Release History](#release-history)
-* [Translations](#translations)
-* [About](#about)
+- [Documentation](#documentation)
+- [Installation](#installation)
+  - [Firefox](#firefox)
+  - [Thunderbird](#thunderbird)
+  - [Chromium](#chromium)
+  - [All Programs](#all-programs)
+  - [Enterprise Deployment](#enterprise-deployment)
+- [Release History](#release-history)
+- [Translations](#translations)
+- [About](#about)
 
 ## Documentation
 
@@ -137,7 +137,6 @@ Free. Open-source. For users by users. No donations sought.
 
 If you ever want to contribute something, think about the people working hard to maintain the filter lists you are using, which are available to use by all for free.
 
-
 <!----------------------------------------------------------------------------->
 
 [Peter Lowe's Blocklist]: https://pgl.yoyo.org/adservers/
@@ -155,12 +154,9 @@ If you ever want to contribute something, think about the people working hard to
 [Opera]: https://addons.opera.com/extensions/details/ublock/
 [Edge]: https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak
 [NPM]: https://www.npmjs.com/package/@gorhill/ubo-core
-
 [Manifesto]: MANIFESTO.md
 [License]: LICENSE.txt
-
 [Nicole Rolls]: https://github.com/nicole-ashley
-
 
 <!---------------------------------[ Internal ]-------------------------------->
 
@@ -178,7 +174,6 @@ If you ever want to contribute something, think about the people working hard to
 [Beta]: https://github.com/gorhill/uBlock/blob/master/dist/README.md#for-beta-version
 [Wiki]: https://github.com/gorhill/uBlock/wiki
 
-
 <!----------------------------------[ Badges ]--------------------------------->
 
 [Badge Localization]: https://d322cqt584bo4o.cloudfront.net/ublock/localized.svg
@@ -189,4 +184,3 @@ If you ever want to contribute something, think about the people working hard to
 [Badge Edge]: https://img.shields.io/badge/dynamic/json?label=Edge&color=brightgreen&query=%24.averageRating&suffix=%2F%35&url=https%3A%2F%2Fmicrosoftedge.microsoft.com%2Faddons%2Fgetproductdetailsbycrxid%2Fodfafepnkmbhccpbejgmiehpchacaeak
 [Badge Issues]: https://img.shields.io/github/issues/uBlockOrigin/uBlock-issues
 [Badge NPM]: https://img.shields.io/npm/v/@gorhill/ubo-core
-
